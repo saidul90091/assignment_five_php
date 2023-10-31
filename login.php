@@ -40,7 +40,7 @@ for ($i = 0; $i < count($roles); $i++) {
         $_SESSION['lastname'] = $lastname[$i];
         $_SESSION['age'] = $age[$i];
 
-        header("Location: index.php");
+        header("Location: function.php");
 
     } else {
         $errorMessage = "Wrong email or password";
